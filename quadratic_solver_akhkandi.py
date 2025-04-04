@@ -47,6 +47,8 @@ class QuadraticApp(ctk.CTk):
 
         self.language_note = ctk.CTkLabel(self, text=" لطفاً ضرایب را در حالت صفحه کلید انگلیسی وارد کنید ⚠️", font=("B Nazanin", 16), text_color="red")
         self.language_note.pack(pady=2)
+        self.language_note = ctk.CTkLabel(self, text=" طراح : عادل آخکندی", font=("B Nazanin", 16), text_color="blue")
+        self.language_note.pack(pady=2)
 
         self.delta_label = ctk.CTkLabel(self, text="", font=("B Nazanin", 20), text_color="darkblue", anchor="w", justify="left")
         self.delta_label.pack(pady=5)
